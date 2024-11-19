@@ -28,9 +28,11 @@ It serches the following directories for `.desktop` files.
 ## Installing
 Note that this app can not be "installed" at least not in the traditional sense. I don't have a distribution package (feel free to make one).
 
-1. Download the entire repository.
-2. make the command `(source PATH/TO/FOLDER/bin/activate && python PATH/TO/FOLDER/home.py) &` run on start-up/sign-in or similar, replacing `PATH/TO/FOLDER` with the path to the folder containing the files.
-3. enjoy
+1. Download the home.py file.
+2. install python if it is not already installed (tested with 3.11, but others should work)
+3. use `pip install PyQt5 pynput` to install dependancies.
+4. make the command `python PATH/TO/FILE/home.py &` run on start-up/sign-in or similar, replacing `PATH/TO/FILE` with the path to the file.
+5. enjoy
 
 ## Notes
 
