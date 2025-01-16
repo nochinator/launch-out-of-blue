@@ -38,7 +38,21 @@ Note that this app can not be "installed" at least not in the traditional sense.
 
 ## Notes
 
-- I haven't tested with any configuration apart from my own configurations. One is arch linux with open-box and tint2. The other is 'Ubuntu' but with almost everything from ubutu removed with open-box and tint2 It *should* work with others but there's no gaurentee. Feel free to open pull requests and issues for these types of things, just keep in mind that **I WILL NOT FIX IT.** I will only test a pull request on my system. If it works on my system it will be merged.
+- I haven't tested with any configuration apart from my own configurations. One is arch linux with open-box and tint2. The other is 'Ubuntu' but with almost everything from ubutu removed with open-box and tint2 It *should* work with others but there's no gaurentee. Feel free to open pull requests and issues for these types of things, just keep in mind that **I WILL NOT FIX IT.** I will only test a pull request on my system. If it works on my system it will be merged.below
 - I created this app on the basis that I wanted it. I'm open-sourcing it cause I figured someone might find it useful. However I maintain it for my own usage, not for others. If you want a more feature packed version of this, or one with a gazillion setting, by all means make an issue detailing it. If it's something I find myself wanting AND it's viable for me to add I might just add it. If you create a pull request for it then I'll test it and if I like it merge it.
 - Due to the above bullet point there it no configureing this app. There are no setting for it or a config file. It just exists how it is. Feel free to edit it and change things how you want, I don't care. Just don't come complaining that there is no configuration.
 - Starting sometime in May 2024 I will be gone. I will return around 2 years later, in May 2026. During this time I will NOT do ANYTHING with this project. After this time, I may pick it back up, I may not. If someone would like to manage the project feel free to fork it and do so. Simply credit me as the original creator.
+
+## The Future of this Project
+
+- First off, read the last not in the above notes sections.
+
+- I am currently working on an AI assistant that will integrate with this app.
+
+- The assistant is not complete yet, and is not open source yet. However, it will be merged once (and hence become open source) once I've gotten it to a reasonabl state.
+
+- The integration will include voice support, as well as text support.
+
+- The assistant is meant to run entirely on CPU. It will be integrated in such a way that, unless you intend to interact with it, the assistant will not run, only load. This should keep performance up on older devices.
+
+- This is the reason for the recent refactor.
