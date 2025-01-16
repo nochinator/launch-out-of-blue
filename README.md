@@ -17,13 +17,15 @@ It serches the following directories for `.desktop` files.
 
 - The display isn't perfect when you have multiple screens, and I'd imaine it's a bit strange with wides screens but it does work.
 
-- You can navigate the items with the arrow keys and launch the selected app (the one with a red boarder) with enter. Also the mouse works too and you can scroll.
+- You can navigate the items with the arrow keys and launch the selected app (the one with a highlighted boarder) with enter. Also the mouse works too and you can scroll.
 
 - It steals focus from whatever app is running (including full screen apps) and displays on top of them, however the task bar (or at least tint2) stays on top of the launcher allowing you to focus existing apps.
 
-- If you open it by mistake (eg. while gaming) you're gamer instincts to hit escape will reward you with the launcher closing itself. (escape closes it) pressing the super key also works.
+- If you open it by mistake (eg. while gaming) you're gamer instincts to hit escape will reward you with the launcher closing itself. (escape closes it) pressing the super key (windows key) also works.
 
 - This app does not include options for sleeping or shutingdown, however you can create a `.desktop` file that does that. `.desktop` files can execute just about any command, so get creative with them!
+
+- Color pallet is set to match with the gtk theme "ark-dark". There is no configuration for this (see point 2 in notes), but it can be changed be tweeking hte rgb values in the file
 
 ## Installing
 Note that this app can not be "installed" at least not in the traditional sense. I don't have a distribution package (feel free to make one).
